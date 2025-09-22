@@ -221,9 +221,8 @@
             <div class="container">
                 <div class="row gy-4">
                     <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
-                        <h1 data-aos="fade-up">We offer modern solutions for growing your business</h1>
-                        <p data-aos="fade-up" data-aos-delay="100">We are team of talented designers making websites
-                            with RPL</p>
+                        <h1 data-aos="fade-up">Create documentation</h1>
+                        <p data-aos="fade-up" data-aos-delay="100">Buat dokumentasi dengan cepat tanpa harus atur layout dan bisa tracking hystori dokumentasi</p>
                         <div class="d-flex flex-column flex-md-row" data-aos="fade-up" data-aos-delay="200">
                         </div>
                     </div>
@@ -466,7 +465,7 @@
                                 </tr>
                             @empty
                                 <tr>
-                                    <td colspan="8" class="text-center">Tidak ada data.</td>
+                                    <td colspan="9" class="text-center">Tidak ada data.</td>
                                 </tr>
                             @endforelse
                         </tbody>
