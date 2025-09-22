@@ -46,7 +46,17 @@
             "@php artisan key:generate --ansi",
             "@php -r \"file_exists('database/database.sqlite') || touch('database/database.sqlite');\"",
             "@php artisan migrate --ansi"
-        ]
+        ],
+        "post-install-cmd": [
+        "mkdir -p /tmp/storage/framework/cache",
+        "mkdir -p /tmp/storage/framework/sessions",
+        "mkdir -p /tmp/storage/framework/views",
+        "mkdir -p /tmp/storage/logs",
+        "ln -s /tmp/storage/framework/cache storage/framework/cache",
+        "ln -s /tmp/storage/framework/sessions storage/framework/sessions",
+        "ln -s /tmp/storage/framework/views storage/framework/views",
+        "ln -s /tmp/storage/logs storage/logs"
+    ]
     },
     "extra": {
         "branch-alias": {
