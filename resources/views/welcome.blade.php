@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.12.0/dist/sweetalert2.min.css">
 
     <!-- Main CSS File -->
-    <link href="{{ asset('assets/css/main.css')}}" rel="stylesheet">
+    <link href="{{ asset('public/assets/css/main.css')}}" rel="stylesheet">
     <style>
         /* From Uiverse.io by Yaya12085 */
         .container-ngasal {
